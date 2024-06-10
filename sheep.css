@@ -1,0 +1,27 @@
+.themain{
+    background: greenyellow;
+    padding: 30px 0px;
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+}
+.tri{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.eat{
+    text-align: center;
+    width: 25%;
+}
+i{
+    font-size: 60px;
+    color: black;
+}
+button{
+    background: orange;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}

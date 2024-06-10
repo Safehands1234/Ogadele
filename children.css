@@ -1,0 +1,33 @@
+div.gtb{
+    background: yellowgreen;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 0px 30px;
+
+}
+
+div.umion{
+    background: red;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+div.wema{
+    background: brown
+}
+
+div#sec{
+    border: 10px dashed green;
+}
+
+.Ayo{
+    font-size: 20px;
+    font-weight: 900;
+    color: green
+}
+
+.Wale{
+    color: red;
+    font-family: algerian;
+}

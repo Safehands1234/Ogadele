@@ -1,0 +1,54 @@
+.forall{
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+forimg{
+    width: 100px;
+    height: fit-content;
+}
+img{
+    width: 50px;
+}
+.formenu{
+    /* background: green; */
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0px;
+    height: fit-content;
+    color: white;
+}
+.momo{
+    /* background: white; */
+    margin:5px;
+    height: fit-content;
+}
+.forbutton{
+   /* background: gold;  */
+   height:fit-content;
+}
+.butt{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.pls{
+    font-size: 20px;
+    font-weight: 100;
+    color: blue;
+}
+.forus{
+    background: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+p{
+    color: white;
+}

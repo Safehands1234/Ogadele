@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 1px outset black;
+            border-spacing: 10px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            width: 400px;
+            text-align: left;
+            font-weight: 100;
+        }
+        p{
+            text-align: center;
+            color: red;
+        }
+        select{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <p>Add Education Details</p>
+    <table>
+        <tr>
+            <td>
+                <label>
+                    *Exact Title in original Language<br>
+                </label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">*Title of the degree/diploma in English<br>
+                or French language e.g Bachelor in<br> Law:</label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Degree/Diploma obtained
+                </label>
+            </td>
+            <td>
+                <input type="radio">
+                <label for="">Yes</label>
+                <input type="radio">
+                <label for="">No</label>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="">*Attended:</label>
+            </td>
+            <td>
+                <label for="">From:</label>
+                <input type="date" name="Date" id="userdate">
+                <label for="">To:</label>
+                <input type="date" name="Date" id="userdate">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">*Type of Institution</label>
+            </td>
+            <td>
+                <select name="Institution" id="userinstitution">
+                    <option value="University of Ibadan">University of Ibadan</option>
+                    <option value="University of Lagos">University of Lagos</option>
+                </select>    
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">*Country</label>
+            </td>
+            <td>   
+            <select name="Country" id="usercountry">
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ghana">Ghana</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">*City where attended:</label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">*Please enter name of institution:</label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Institution Web Site:</label></td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">*Main Course of Study:</label>
+            </td>
+            <td>
+                <select name="Course" id="usercourse">
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Statistics">Statistics</option>
+                </select>    
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">*Field of Study:</label>
+            </td>
+            <td>
+                <select name="Field" id="userfield">
+                    <option value="Science">Science</option>
+                    <option value="Technology">Technology</option>
+                </select>    
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Specialization:</label>
+            </td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">*Enrollment Status:</label>
+            </td>
+            <td>
+                <select name="Enrollment" id="userenrollment">
+                    <option value="Admitted">Admitted</option>
+                    <option value="No Admission">No Admission</option>
+                </select>    
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">*Teaching Method:</label></td>
+            <td>
+                <select name="Tmethod" id="usertmethod">
+                    <option value="Physical">Physical</option>
+                    <option value="Online">Online</option>
+                </select>    
+            </td>
+        </tr>
+        <tr>
+            <td>Additonal Comments:</td>
+            <td>
+                <textarea name="comment" id="usercomment" cols="20" rows="1"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">If your exact choice is not listed in the drop-down menus, please select the closet relevant option and explain in the "Additional Commenta"</td>
+            
+        </tr>
+    </table>
+      
+</body>
+</html>

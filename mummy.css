@@ -1,0 +1,60 @@
+ol{
+    background: blue;
+    color: green;
+}
+p{
+    background: brown;
+    color: white;
+
+    /* BOX MODEL */
+    background-color: red;
+    background-image: url(myimages/Chinko.png);
+    background-repeat: no-repeat;
+    background-position: 0px 100px;
+    padding-top: 10px;
+    padding-right:50px;
+    padding-bottom: 30px;
+    padding-left:40px;
+}
+ul{
+    background: green;
+    color: white;
+}
+li{
+    background: red;
+    /* padding-top: 1px;
+    padding-left: 10ox;
+    padding-bottom: 10px;
+    padding-right: 0cm10px; */
+    padding: 10px 10px 10px 10px;
+
+    border-radius: 10px;
+
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px; */
+    margin: 10px 10px 10px 10px
+}
+button{
+    padding:20px 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 0, 0.5);
+
+    border-width: 10px;
+    border-style: dotted;
+    border-color: red;
+
+    border: none;
+    border-top: 5px dotted red;
+    border-right: 5px dotted green;
+    border-bottom: 5px dotted brown;
+    border-left: 5px dotted blue;
+
+    box-shadow: inset 0px 0px 20px 5px black;
+}
+img{
+    border-width: 20px;
+    border-style: dashed;
+    border-color: red;
+}

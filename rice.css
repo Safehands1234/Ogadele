@@ -1,0 +1,61 @@
+.one button{
+    background: yellow;
+}
+p,h1,h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.fur{
+    background: goldenrod;
+    padding: 20px;
+}
+
+.fur button{
+    border: 1px solid red;
+    border-redius: 0px 20px;
+    font-size: 30px;
+    margin: 10px 10px;
+}
+h4:hover{
+    background: blue;
+}
+h4::first-letter{
+    font-size: 60px;
+}
+h4::selection{
+    background: black;
+    color: white;
+}
+.fur button:hover{
+    background: red;
+    color: white;
+    border-radius: 20px 0px;
+    padding: 30px
+}
+.fur button:active{
+    background: blue;
+}
+.fur button:first-child{
+    background: purple;
+}
+.fur button:last-child{
+    background: blue;
+}
+input{
+    padding: 20px;
+}
+input:focus{
+    background: red;
+}
+.fur button:nth-child(8){
+    background: red;
+    border-radius: 100%;
+}
+.fur button:nth-child(odd){
+    background: grey;
+    border-radius: 0px 10px;
+}
+.fur button:nth-child(even){
+    background: yellow;
+    border-radius: 100%;
+}

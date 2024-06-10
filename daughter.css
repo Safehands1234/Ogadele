@@ -1,0 +1,95 @@
+.re{
+    background: red;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    border-radius: 100%;
+}
+.gre{
+    background: green;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+ol{
+    background: purple;
+    list-style-type: none;
+    padding: 10px;
+}
+.mum{
+    background: white;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+
+    display: inline-block;
+}
+.forbut{
+    background: green;
+    padding: 20px;
+}
+.but{
+    padding: 10px;
+    border-radius: 10px;
+    background: red;
+    color: gold;
+    border: none;
+    margin: 10px;
+
+    display: block;
+}
+ul{
+    background: goldenrod;
+    list-style-type: none;
+    padding: 10px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+.mumu{
+    background: white;
+    width: fit-content;
+    padding: 10px;
+    height: 50px;
+    text-align: center;   
+}
+.forall{
+    background: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+forimg{
+    width: 100px;
+    height: fit-content;
+}
+img{
+    width: 100px;
+}
+.formenu{
+    /* background: green; */
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0px;
+    height: fit-content;
+}
+.momo{
+    background: white;
+    margin:10px;
+    height: fit-content;
+}
+.forbutton{
+   /* background: gold;  */
+   height:fit-content;
+}
+.butt{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}

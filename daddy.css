@@ -1,0 +1,31 @@
+body{
+    background-image: url("myimages/Chinko.png");
+}
+
+
+
+form{
+    background: rgba(246, 243, 243, 0.3);
+    width: 300px;
+    padding: 50px 50px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 20px white;
+}
+input{
+    border: none;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: inset 0px 0px 20px white;
+    background: rgba(248, 244, 244, 0.3);
+}
+label{
+    color: white;
+}
+button{
+    border: none;
+    padding: 20px;
+    width: 200px;
+    background: rgba(249, 246, 246, 0.3);
+    box-shadow: inset 0px 0px 20px white;
+    border-radius: 100px;
+}
