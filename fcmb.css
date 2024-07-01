@@ -24,11 +24,17 @@
     margin: 0px 100px;
     padding:;
 }
+.leftline{
+    margin: 10px 100px;
+    border-left: 2px solid gold;
+    padding: 0px 0px 0px 10px;
+
+}
 .general{
     padding: 30px 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 h1{
     text-align: left;
@@ -40,6 +46,11 @@ h1{
     border-width: 5px;
     border-color: purple;
     padding: 10px;
+    margin: 10px;
+    width: 500px;
+}
+.sgt{
+    margin: 10px;
 }
 .capt{
     background: purple;
@@ -47,13 +58,55 @@ h1{
  }
 button{
     background: orange;
-    border: none;
+    border-color: black;
     padding: 10px 20px;
-    border-radius: 5px;
 }
 .lieu{
     color: white;
 }
+.hull{
+    margin: 10px 100px;
+}
 .col{
-    background: cream;
+    background: #fbf4f6;
+    width: 600px;
+}
+.imgg{
+    width: 300px; 
+    height: 300px;
+}
+.suppol{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+img{
+    width: 40px;
+}
+.suppol h4{
+    background: gold;
+    margin: 20px;
+    padding: 20px 20px 20px 10px;
+}
+.par{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.ig p{
+    color: blue;
+    /* padding: 20px; */
+    margin: 20px;
+}
+.cop{
+    padding: 20px;
+}
+.wola{
+    background: black;
+    color: white;
+    text-align: center;
+}
+.wola p{
+    padding: 5px;
+    font-size: 10px;
 }

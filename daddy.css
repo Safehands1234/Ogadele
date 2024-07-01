@@ -6,7 +6,7 @@ body{
 
 form{
     background: rgba(246, 243, 243, 0.3);
-    width: 300px;
+    width: 500px;
     padding: 50px 50px;
     border-radius: 10px;
     box-shadow: inset 0px 0px 20px white;
@@ -17,6 +17,7 @@ input{
     border-radius: 100px;
     box-shadow: inset 0px 0px 20px white;
     background: rgba(248, 244, 244, 0.3);
+    width: 100%;
 }
 label{
     color: white;
@@ -28,4 +29,5 @@ button{
     background: rgba(249, 246, 246, 0.3);
     box-shadow: inset 0px 0px 20px white;
     border-radius: 100px;
+    width: 100%;
 }
